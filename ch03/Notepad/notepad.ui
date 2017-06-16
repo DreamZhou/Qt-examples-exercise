@@ -17,10 +17,10 @@
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>0</y>
-      <width>401</width>
-      <height>251</height>
+      <x>130</x>
+      <y>50</y>
+      <width>291</width>
+      <height>223</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -30,7 +30,7 @@
         <bool>true</bool>
        </property>
        <property name="sizePolicy">
-        <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
@@ -67,6 +67,9 @@
         <string>Quit</string>
        </property>
       </widget>
+     </item>
+     <item>
+      <widget class="QOpenGLWidget" name="openGLWidget"/>
      </item>
     </layout>
    </widget>

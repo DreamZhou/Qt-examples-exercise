@@ -45,10 +45,24 @@ b, 与 选中 Font Combo Box 和 Text Edit 部件 设置 垂直布局不一样�
 	QSizePolicy::MinimumExpanding	sizeHint()的值是最小，倾向拉伸
 	QSizePolicy::Ignorred			sizeHint() 的值被忽略，倾向拉伸
 		
-		
-		
-		
-		
+	伸缩因子(stretch factor)
+	
+	QLayout 类的 大小约束属性的取值
+	QLayout::SetDefaultConstraint	主窗口大小设置为minimumSize() 的值，除非部件已有一个最小大小
+	QLayout::SetFixedSize							sizeHint()的值,无法改变大小
+	QLayout::SetMinimumSize			
+	QLayout::SetMaximumSize
+	QLayout::SetMinAndMaxSize
+	QLayout::SetNoConstraint
+	
+五 可扩展窗口
+	on_pushButton_toggled
+	
+六 分裂器 (QSplitter)
+	选中PushButton 右击, "布局->使用分裂器水平/垂直布局"
+七 伙伴关系
+
+八 设置Tab键顺序		
 		
 		
 		
